@@ -85,6 +85,7 @@ Partners section
 .title-description {
     font-size: 20px;
     line-height: 125%;
+    
 }
 
 .partners-logo {
@@ -93,6 +94,150 @@ Partners section
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
+}
+
+/*
+Meeting sections
+*/
+.meeting {
+    min-height: 370px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    
+}
+
+.meeting-text {
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 470px;
+    flex-shrink: 1;
+}
+
+.meeting-p {
+    font-size: 15px;
+    line-height: 125%;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.meeting-img {
+    flex-grow: 1;
+    flex-basis: 310px;
+    max-width: 600px;
+    flex-shrink: 1;
+}
+
+.meeting-img img {
+    width: 100%;
+}
+
+/*
+Creative section
+*/
+.creative {
+    min-height: 370px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 42px;
+    
+}
+
+.creative-text {
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 470px;
+    flex-shrink: 1;
+}
+
+.creative-p {
+    font-size: 15px;
+    line-height: 125%;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.creative-img {
+    flex-grow: 1;
+    flex-basis: 310px;
+    max-width: 600px;
+    flex-shrink: 1;
+}
+
+.creative-img img {
+    width: 100%;
+}
+
+/*
+Talents section
+*/
+
+.talents {
+    text-align: center;
+    padding: 60px 20px 45px 20px;
+}
+
+.talents-title {
+    max-width: 411px;
+    margin: 0 auto;
+}
+
+/*
+Groups section
+*/
+
+.group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 54px;
+}
+
+.peoples {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 47px;
+    padding-bottom: 45px;   
+}
+
+.group-lead {
+    border-radius: 5px;
+    padding: 20px 39px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.group-img {
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+/*
+Footer
+*/
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    min-height: 125px;
+}
+
+.socials-logo {
+    display: flex;
+    gap: 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    line-height: 125%;
 }
 
 /*
