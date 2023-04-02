@@ -31,3 +31,79 @@ HEADER
 /*
 Hero section
 */
+.hero {
+    min-height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    color: white;
+}
+
+.p-white{
+    color:  rgba(255, 255, 255, 0.75);
+}
+
+.hero-text {
+    padding-top: 42px;
+    /* leidzia elementui augti*/
+    flex-grow: 1;
+    /*kiek leisim spaustis elementui*/
+    flex-basis: 300px;
+    /* jei reikia, kad elementas nebutu didesnis negu*/
+    max-width: 415px;
+    flex-shrink: 1;
+}
+
+.hero-img {
+    /*leidzia elementui augti*/
+    flex-grow: 1;
+    /*kiek leisim spausti elementui*/
+    flex-basis: 410px;
+    /*jei reikia, kad elementas nebutu didesnis negu*/
+    max-width: 645px;
+    flex-shrink: 1;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+/*
+Partners section
+*/
+.partners {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.partners-title {
+    max-width: 411px;
+    margin: 0 auto;
+}
+
+.title-description {
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.partners-logo {
+    display: flex;
+    margin: 55px 0;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+/*
+Media
+*/
+
+@media screen and (max-width: 749px) {
+    .nav-list {
+        display: none;
+    }
+    .hero {
+        justify-content: center;
+    }
+}
